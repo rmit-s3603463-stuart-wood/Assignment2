@@ -1,1 +1,3 @@
-%h1 Welcome to the index page
+- @posts.each do |post|
+  %h1= link_to post.title, post
+    
